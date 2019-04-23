@@ -5,6 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using CIDM3312_lAB11.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 
 namespace CIDM3312_lAB11.Models
 
@@ -12,14 +18,19 @@ namespace CIDM3312_lAB11.Models
    
     public class Professor
     {
-       
+       [BindProperty]
         public int ID { get; set; }
-        public String FirstName{ get; set; }
-        public String LastName{ get; set; }
-       //  public int MovieID { get; set; }//foreign key
-        
-      //   public Movie movie  { get; set; }//nav prop
 
+        [Display(Name = "First Name")]
+        [BindProperty]
+        public String FirstName{ get; set; }
+
+        [Display(Name = "Last Name")]
+        [BindProperty]
+        public String LastName{ get; set; }
+        
+        public List<Course> Courses {get; set;}//nav prop
+      
 
          
         

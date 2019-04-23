@@ -28,3 +28,9 @@ E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\CIDM3312_lAB11.Views.pd
 E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\CIDM3312_lAB11.dll
 E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\CIDM3312_lAB11.pdb
 E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\CIDM3312_lAB11.csproj.CopyComplete
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professors\Create.g.cshtml.cs
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professors\Delete.g.cshtml.cs
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professors\Details.g.cshtml.cs
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professors\Edit.g.cshtml.cs
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professors\Index.g.cshtml.cs
+E:\cidm3312\LAB11\CIDM3312_lAB11\obj\Debug\netcoreapp2.2\Razor\Pages\Professor.g.cshtml.cs

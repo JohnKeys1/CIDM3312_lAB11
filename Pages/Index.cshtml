@@ -1,10 +1,17 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Professor page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+ 
+<p>List of professors:</p>
+@foreach (var p in Model.Professors)
+{
+ <p>@Html.DisplayFor(modelItem => p.FirstName) @Html.DisplayFor(modelItem => p.LastName)</p>
+}
+   

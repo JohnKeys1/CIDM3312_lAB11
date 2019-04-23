@@ -12,6 +12,8 @@ namespace CIDM3312_lAB11.Models
         }
 
         public DbSet<CIDM3312_lAB11.Models.Professor> Professor { get; set; }
+        public DbSet<CIDM3312_lAB11.Models.Course> Course { get; set; }
+
         
 
 
